@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Trending Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="container">
+        <h1 class="title">Trending YouTube Videos</h1>
+        <button onclick="toggleDarkMode()" class="dark-mode-toggle">
+            <span class="switch">
+                <span class="slider"></span>
+            </span>
+            Toggle Dark Mode
+        </button>
+        <a style="text-decoration: none;" href="index.html">home</a>
+        <div id="container" class="results-container"></div>
+        <div id="player-container" class="player-container"></div>
+    </div>
+    <script src="trend.js"></script>   
+</body>
+</html>
